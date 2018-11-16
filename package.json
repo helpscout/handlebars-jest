@@ -1,6 +1,6 @@
 {
-  "name": "handlebars-jest",
-  "version": "0.2.0",
+  "name": "jest-handlebars-loader",
+  "version": "0.0.1",
   "description": "Handlebars transformer for Jest",
   "main": "handlebars-jest.js",
   "files": [
@@ -16,21 +16,23 @@
     "jest handlebars",
     "jest handlebars transform",
     "jest handlebars preprocessor",
+    "jest handlebars loader",
     "handlebars jest",
     "handlebars jest",
     "handlebars jest transform",
-    "handlebars jest preprocessor"
+    "handlebars jest preprocessor",
+    "handlebars jest loader"
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/tylergould/handlebars-jest.git"
+    "url": "git://github.com/helpscout/handlebars-jest.git"
   },
   "author": "Tyler Gould <tg@tylergould.net>",
   "license": "MIT",
   "peerDependencies": {},
   "devDependencies": {
     "handlebars": "^4.0.11",
-    "jest": "^22.4.3",
+    "jest": "^23.6.0",
     "mock-fs": "^4.5.0"
   },
   "dependencies": {

@@ -37,8 +37,10 @@ Configure the transformer in a `handlebars-jest` property in your Jest config's 
         "helperDirs": [
           "/some/path"
         ],
-        "partialDirs": [
-          "/some/other/path"
+        "relativePathPartials": true,
+        "partialFileExtension": ".hbs",
+        "partialDirs": [ 
+          "/some/other/path"  
         ]
       }
     }
@@ -50,3 +52,6 @@ The following options are supported:
 
 - *helperDirs*: Defines directories to be searched for helpers.
 - *partialDirs*: Defines directories to be searched for partials.
+- *relativePathPartials*: Look up partials using relative paths i.e. `{{> ../partials/customer}}` (default `true`)
+- *partialFileExtension*: Look up partials using relative paths i.e. `{{> ../partials/customer}}` (default `.hbs`)
+
